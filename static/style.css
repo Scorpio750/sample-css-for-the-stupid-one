@@ -1,0 +1,50 @@
+h1 {
+	border: 10px ridge green;
+	font-family: Comic Sans;
+}
+
+#pew {
+	border: 5px dashed groove green;
+	font-family: Papyrus;
+}
+
+.poonka {
+	font-family: Garamond;
+	font-weight: bolder;
+	font-size:20px;
+}
+
+a:hover {
+	font-family: Comic-Sans;
+	font-weight: boldest;
+	background-color: #ccc;
+}
+
+a:active {
+
+	-webkit-animation: sploosh 40s linear;
+}
+
+#billy-lynch {
+	width:50%;
+	height:50%;
+}
+p:first-child {
+	font-size: 30px;
+}
+img {
+	width: 50%;
+	height:50;
+}
+
+@-webkit-keyframes sploosh {
+	from {
+		font-size:20px;
+		margin-left:0%;
+	}
+	
+	to {
+		font-size:50px;
+		margin-left:1000%;
+	}
+}
