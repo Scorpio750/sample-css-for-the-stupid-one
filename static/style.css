@@ -1,22 +1,36 @@
 #header {
-	width: 24%;
+	width: 30%;
+	font-size:20px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	-webkit-animation: animated-border 20s linear alternate infinite;
+	margin-top:1px;
+	-webkit-animation: animated-border 2s linear alternate infinite;
 }
 
 h1 {
 	border: 10px ridge green;
+	padding: 3px;
 	font-family: Comic Sans MS;
 	text-align: center;
-	-webkit-animation: color-change 2s alternate infinite;
+	-webkit-animation: color-change 2s infinite;
 }
 
 body {
-	border 5px dotted black;
+	background: -webkit-radial-gradient(circle,  #c4fc3d, #15a451);
+	padding: 10px;
+	border: 5px dotted black;
 }
 
+a {
+	text-decoration: none;
+	color: crimson;
+}
+
+#fancy{
+	font-family: Baroque;
+	font-style: oblique;
+}
 #pew {
 	border: 5px dashed groove green;
 	font-family: Comic Sans MS;
@@ -31,16 +45,16 @@ body {
 a:hover {
 	font-family: Comic-Sans;
 	font-weight: boldest;
-	background-color: #ccc;
-	-webkit-animation: sploosh 40s linear;
+	-webkit-animation: sploosh 10s linear alternate;
 }
 
 #billy-lynch {
-	width:25%;
+	width:50%;
 	height:50%;
-	float:right;
-	border: 10px solid pink;
+	border: 10px groove orange;
+	cursor: help;
 }
+
 p:nth-child(1) {
 	font-size: 30px;
 	font-style: cursive;
@@ -54,11 +68,18 @@ img {
 	from {
 		font-size:20px;
 		margin-left:0%;
+		margin-top:0%;
 	}
 	
-	to {
+	50% {
 		font-size:50px;
-		margin-left:1000%;
+		margin-left:80%;
+		margin-top: 40%;
+	}
+
+	to {
+		font-size:140px;
+		margin-top:800%;
 	}
 }
 
@@ -84,6 +105,7 @@ img {
 	}
 	50% {
 		background-color: salmon;
+		color: navy;
 	}
 	60% {
 		color: lime;
@@ -92,7 +114,7 @@ img {
 		background-color: lime;
 		color: magenta;
 	}
-	80% {
+	85% {
 		background-color: maroon;
 		color: aliceblue;
 	}
@@ -100,6 +122,4 @@ img {
 		background-color: black;
 		color: white;
 	}
-}
-
 }
