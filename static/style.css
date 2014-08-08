@@ -1,17 +1,25 @@
 #header {
 	width: 24%;
-	border: 10px dashed pink;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-animation: animated-border 20s linear alternate infinite;
 }
 
 h1 {
 	border: 10px ridge green;
-	font-family: Comic Sans;
+	font-family: Comic Sans MS;
 	text-align: center;
+	-webkit-animation: color-change 2s alternate infinite;
+}
+
+body {
+	border 5px dotted black;
 }
 
 #pew {
 	border: 5px dashed groove green;
-	font-family: Papyrus;
+	font-family: Comic Sans MS;
 }
 
 .poonka {
@@ -27,16 +35,15 @@ a:hover {
 	-webkit-animation: sploosh 40s linear;
 }
 
-a:active {
-
-}
-
 #billy-lynch {
-	width:50%;
+	width:25%;
 	height:50%;
+	float:right;
+	border: 10px solid pink;
 }
-p:first-child {
+p:nth-child(1) {
 	font-size: 30px;
+	font-style: cursive;
 }
 img {
 	width: 50%;
@@ -53,4 +60,46 @@ img {
 		font-size:50px;
 		margin-left:1000%;
 	}
+}
+
+@-webkit-keyframes animated-border {
+	from {
+		border-size: 10px;
+		border-style: dashed;
+		border-color: pink;
+	}
+	to {
+		border: 20px dashed pink;
+	}
+}
+
+@-webkit-keyframes color-change {
+	from {
+		background-color: white;
+		color: black;
+	}
+	20% {
+		background-color: aliceblue;
+		color: salmon;
+	}
+	50% {
+		background-color: salmon;
+	}
+	60% {
+		color: lime;
+	}
+	70% {
+		background-color: lime;
+		color: magenta;
+	}
+	80% {
+		background-color: maroon;
+		color: aliceblue;
+	}
+	100% {
+		background-color: black;
+		color: white;
+	}
+}
+
 }
