@@ -1,6 +1,12 @@
+#header {
+	width: 24%;
+	border: 10px dashed pink;
+}
+
 h1 {
 	border: 10px ridge green;
 	font-family: Comic Sans;
+	text-align: center;
 }
 
 #pew {
@@ -18,11 +24,11 @@ a:hover {
 	font-family: Comic-Sans;
 	font-weight: boldest;
 	background-color: #ccc;
+	-webkit-animation: sploosh 40s linear;
 }
 
 a:active {
 
-	-webkit-animation: sploosh 40s linear;
 }
 
 #billy-lynch {
