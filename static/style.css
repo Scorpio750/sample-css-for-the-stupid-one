@@ -52,7 +52,7 @@ a:hover {
 	width:50%;
 	height:50%;
 	border: 10px groove orange;
-	cursor: help;
+	cursor: wait;
 }
 
 p:nth-child(1) {
