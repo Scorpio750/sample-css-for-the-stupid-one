@@ -29,8 +29,9 @@ a {
 }
 
 #fancy{
-	font-family: Baroque;
+	font-family: Georgian;
 	font-style: oblique;
+	clear:left;
 }
 #pew {
 	border: 5px dashed groove green;
@@ -49,10 +50,16 @@ a:hover {
 	-webkit-animation: sploosh 10s linear alternate;
 }
 
-#billy-lynch {
-	width:50%;
-	height:50%;
-	border: 10px groove orange;
+#billy-lynches {
+	border: 2px solid black;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.billy-lynch {
+	width:400px;
+	border: 1px groove orange;
+	float:left;
 	cursor: wait;
 }
 
