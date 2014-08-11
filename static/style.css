@@ -59,14 +59,21 @@ a:hover {
 .billy-lynch {
 	width:400px;
 	border: 1px groove orange;
+	display: inline;
 	float:left;
 	cursor: wait;
+}
+
+ul { 
+	list-style-image: url("http://icons.iconarchive.com/icons/yellowicon/game-stars/256/Mario-icon.png"); 
+	margin-left: 15%;
 }
 
 p:nth-child(1) {
 	font-size: 30px;
 	font-style: cursive;
 }
+
 img {
 	width: 50%;
 	height:50;
