@@ -65,13 +65,19 @@ a:hover {
 }
 
 ul { 
-	list-style-image: url("http://icons.iconarchive.com/icons/yellowicon/game-stars/256/Mario-icon.png"); 
-	margin-left: 15%;
+	list-style-image: url("http://img1.wikia.nocookie.net/__cb20101231203225/mugen/images/4/41/Pocket_Mario.gif");
 }
 
-p:nth-child(1) {
+p:first-child {
 	font-size: 30px;
 	font-style: cursive;
+	font-family: Impact;
+}
+
+#ooh {
+	font-family: Impact;
+	font-size: 20px;
+	font-style: bolder;
 }
 
 img {
@@ -145,4 +151,3 @@ to {
 		border-color: aliceblue;
 	}
 }
-
