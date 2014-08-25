@@ -51,17 +51,25 @@ a:hover {
 }
 
 #billy-lynches {
+	min-width: 0px;
+	min-height: 0px;
 	border: 2px solid black;
 	display: inline-block;
 	overflow: hidden;
 }
 
 .billy-lynch {
-	width:400px;
+	min-width: 0px;
+	min-height: 0px;
+	height: 200px;
 	border: 1px groove orange;
 	display: inline;
 	float:left;
 	cursor: wait;
+}
+
+.billy-lynch-nth-child(4) {
+	float: right;
 }
 
 ul { 
