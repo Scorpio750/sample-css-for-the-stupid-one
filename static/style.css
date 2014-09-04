@@ -51,26 +51,26 @@ a:hover {
 }
 
 #billy-lynches {
-	min-width: 0px;
-	min-height: 0px;
+	width: 400px;
+	height: 212px;
 	border: 2px solid black;
 	display: inline-block;
 	overflow: hidden;
 }
 
-.billy-lynch {
-	min-width: 0px;
-	min-height: 0px;
-	height: 200px;
-	border: 1px groove orange;
-	display: inline;
+#billy-lynches img {
+	width: 47.5%;
+	height: 100%;
+	margin:0;
+	padding:0;
+	border:0;
 	float:left;
-	cursor: wait;
 }
 
-.billy-lynch-nth-child(4) {
-	float: right;
+#billy-lynches img:not(:last-child) {
+	margin-right: 5%;
 }
+
 
 ul { 
 	list-style-image: url("http://img1.wikia.nocookie.net/__cb20101231203225/mugen/images/4/41/Pocket_Mario.gif");
